@@ -1,83 +1,105 @@
 # pretinac.online — Sigurna digitalna dostava dokumenata
 
-**pretinac.online** je moderna platforma za **sigurnu i praktičnu razmjenu digitalnih dokumenata** s potvrdom primitka. Sustav omogućuje slanje, praćenje i potvrdu preuzimanja datoteka koristeći enkripciju i vremenski ograničen pristup. :contentReference[oaicite:1]{index=1}
+**pretinac.online** je platforma za sigurnu digitalnu dostavu i razmjenu dokumenata s potvrdom primitka. Sustav omogućuje slanje, praćenje i kontrolirano preuzimanje dokumenata uz visoku razinu sigurnosti i privatnosti.
 
 ---
 
-## 🌐 Opis sustava
+## Opis sustava
 
-pretinac.online je dizajniran kao **sigurna platforma za razmjenu dokumenata** gdje:
+pretinac.online je dizajniran kao siguran digitalni pretinac za razmjenu osjetljivih dokumenata između pošiljatelja i primatelja.
 
-- Svaki dokument prolazi kroz **dvostruku enkripciju** — podatke šifrira korisnik i sustav ih ponovno enkriptira pri pohrani. :contentReference[oaicite:2]{index=2}  
-- **Ni server ne može pročitati sadržaj datoteka** — vidljivi su samo metapodaci (pošiljatelj, primatelj, datum). :contentReference[oaicite:3]{index=3}  
-- Sustav omogućuje **praćenje primitka i potvrdu preuzimanja**. :contentReference[oaicite:4]{index=4}  
-- Dokumenti su **vremenski ograničeno dostupni** i brišu se automatski radi sigurnosti. :contentReference[oaicite:5]{index=5}
+Osnovna načela sustava:
 
-⚠️ Napomena: pretinac.online **nije kvalificirana usluga elektroničke dostave** u smislu eIDAS (EU uredba 910/2014) i **ne zamjenjuje pravnu poštu** — namijenjen je sigurnoj privremenoj dostavi i potvrdi primitka. :contentReference[oaicite:6]{index=6}
+- Dokumenti su enkriptirani i sadržaj nije čitljiv na serveru
+- Server raspolaže isključivo metapodacima (pošiljatelj, primatelj, datum)
+- Pristup dokumentima je vremenski ograničen
+- Evidentira se trenutak preuzimanja dokumenta
+- Nakon isteka roka dokumenti se automatski uklanjaju
 
----
-
-## 🔒 Ključne značajke
-
-### 👌 Sigurna dostava
-
-- Digitalna dostava dokumenata s potvrdom primitka. :contentReference[oaicite:7]{index=7}  
-- Praćenje kada je dokument **primljen i otvoren**. :contentReference[oaicite:8]{index=8}  
-- **Enkripcija lozinkom** poznatom samo primatelju. :contentReference[oaicite:9]{index=9}  
-
-### ⏱️ Kontrola pristupa
-
-- Vrijeme pristupa može biti definirano i ograničeno. :contentReference[oaicite:10]{index=10}  
-- Nakon isteka roka, dokument se briše automatski. :contentReference[oaicite:11]{index=11}  
-
-### 📊 Transparentnost
-
-- Evidentira se točno kada je dokument **preuzet od strane primatelja**. :contentReference[oaicite:12]{index=12}  
+> Napomena: pretinac.online nije kvalificirana usluga elektroničke dostave prema eIDAS uredbi i ne zamjenjuje pravno utemeljenu službenu elektroničku poštu. Sustav je namijenjen sigurnoj i kontroliranoj razmjeni dokumenata.
 
 ---
 
-## 🏢 On-premise verzija
+## Ključne značajke
 
-Za organizacije koje žele **potpunu kontrolu nad podacima i sigurnošću**, dostupna je **on-premise instalacija** — sustav se može instalirati direktno na vlastitu infrastrukturu. :contentReference[oaicite:14]{index=14}  
+### Sigurna dostava
+- Slanje dokumenata putem sigurnog digitalnog pretinca
+- Potvrda primitka dokumenta
+- Evidencija preuzimanja
+- Dokumenti zaštićeni PIN-om ili pristupnim kodom
 
-**Prednosti On-premise opcije:**
+### Kontrola pristupa
+- Vremenski ograničen pristup dokumentima
+- Mogućnost opoziva pošiljke
+- Automatsko brisanje po isteku roka
 
-- Neograničen broj pošiljaka i veličina dokumenata. :contentReference[oaicite:15]{index=15}  
-- Neograničeno trajanje pošiljki. :contentReference[oaicite:16]{index=16}  
-- API integracija za poslovne sustave. :contentReference[oaicite:17]{index=17}  
-
----
-
-## 🛠️ Plan razvoja
-
-Sustav je trenutno u **aktivnom razvoju** s planovima za:
-
-- Napredne pakete funkcionalnosti po pretplati. :contentReference[oaicite:18]{index=18}  
-- Integracije s poslovnim i računovodstvenim sustavima. :contentReference[oaicite:19]{index=19}  
-- Naprednu evidenciju i analitiku. :contentReference[oaicite:20]{index=20}  
+### Privatnost i sigurnost
+- Sadržaj dokumenata nije dostupan sustavu
+- Enkripcija dokumenata
+- Primatelj jedini ima pristup sadržaju
 
 ---
 
-## 📞 Kontakt i podrška
+## Free paket
 
-Za pitanja, prijedloge ili informacije o integracijama:
+Online verzija servisa dostupna je besplatno uz osnovna ograničenja.
 
-📧 **Email:** info@pretinac.online  
-🌍 **Web:** https://portal.pretinac.online/ :contentReference[oaicite:21]{index=21}
+Primjer značajki free paketa:
 
----
-
-## 📌 Zaključak
-
-pretinac.online pruža:
-
-✔️ Sigurnu i privatnu digitalnu dostavu  
-✔️ Potvrdu primitka i praćenje preuzimanja  
-✔️ Dvostruku enkripciju s PIN zaštitom  
-✔️ Fleksibilne opcije od free paketa do enterprise rješenja  
-
-Iako ne zamjenjuje pravno utemeljene elektroničke dostave, može biti vrlo praktično, sigurno i jednostavno rješenje za **sigurnu razmjenu važnih dokumenata** među korisnicima ili poslovnim entitetima. :contentReference[oaicite:22]{index=22}
+- Do 99 pošiljaka mjesečno
+- Do 3 dokumenta po pošiljci
+- Maksimalna veličina dokumenta: 50 MB
+- Trajanje dostupnosti: do 7 dana
+- Potvrda primitka u tekstualnom obliku
+- Zaštita PIN-om
+- Mogućnost opoziva pošiljke
 
 ---
 
-*Izvor: portal.pretinac.online* :contentReference[oaicite:23]{index=23}
+## On-premise verzija
+
+Za organizacije koje žele potpunu kontrolu nad sustavom i podacima, dostupna je on-premise instalacija.
+
+Prednosti on-premise verzije:
+
+- Instalacija na vlastitoj infrastrukturi
+- Neograničen broj pošiljaka
+- Neograničena veličina dokumenata
+- Neograničeno trajanje dostupnosti
+- Integracija s postojećim poslovnim sustavima putem API-ja
+- Potpuna kontrola nad sigurnosnim politikama
+
+Za on-premise opciju potrebno je kontaktirati tim pretinac.online.
+
+---
+
+## Planirani razvoj
+
+Sustav je u aktivnom razvoju. Planirani smjerovi uključuju:
+
+- Napredne pretplatničke pakete
+- API integracije za B2B scenarije
+- Automatske notifikacije prema vanjskim sustavima
+- Naprednu evidenciju i analitiku događaja
+- Mogućnost on-premise i hibridnih implementacija
+
+---
+
+## Kontakt
+
+- Web: https://portal.pretinac.online
+- Email: info@pretinac.online
+
+---
+
+## Sažetak
+
+pretinac.online omogućuje:
+
+- Sigurnu digitalnu dostavu dokumenata
+- Potvrdu primitka i evidenciju preuzimanja
+- Visoku razinu privatnosti
+- Jednostavnu upotrebu za pojedince i organizacije
+- Mogućnost enterprise i on-premise korištenja
+
+Sustav je namijenjen svima koji žele sigurniju alternativu slanju osjetljivih dokumenata putem e-maila.
